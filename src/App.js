@@ -142,13 +142,7 @@ export default function App() {
             <div id="game">
            
            
-            <div style={{
-                display: "grid",
-                gridTemplateColumns: `repeat(${numCols}, 25px)`,
-                margin: "5%",
-                justifyContent: "center",
-                boxShadow: "0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)"
-            }}>
+            <div id="grid">
                 {grid.map((rows, i) => 
                     rows.map((col, k) => (
                         <div   
